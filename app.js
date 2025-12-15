@@ -18,7 +18,7 @@ let tie;
 /*------------------------ Cached Element References ------------------------*/
 const squareEls = document.querySelectorAll(".sqr");
 let messageEl = document.querySelector("#message");
-const resetEl = document.querySelector("#reset")
+const resetEl = document.querySelector("#button")
 /*-------------------------------- Functions --------------------------------*/
 const render = () => {
   updateBoard();
